@@ -1,0 +1,23 @@
+{
+  "name": "webdriveriocucumber12march",
+  "version": "1.0.0",
+  "description": "cucumber webdriver v7 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "author": "chandra shekhar pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "faker": "^5.5.3",
+    "@wdio/cli": "^7.17.4",
+    "@wdio/cucumber-framework": "^7.17.3",
+    "@wdio/local-runner": "^7.17.4",
+    "@wdio/spec-reporter": "^7.17.3",
+    "chromedriver": "^99.0.0",
+    "wdio-chromedriver-service": "^7.2.8"
+  }
+}
